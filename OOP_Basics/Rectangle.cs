@@ -17,7 +17,11 @@ namespace OOP_Basics
             {
                 return side1 * side2;
             }
+        }
 
+        public static double GetPerimeter(double side1, double side2)
+        {
+            return 2 * (side1 + side2);
         }
     }
 }
