@@ -4,7 +4,7 @@ using System.Text;
 
 namespace OOP_Basics
 {
-    class Rectangle
+    class Rectangle:Shapes
     {
         public static double GetArea(double side1, double side2)
         {

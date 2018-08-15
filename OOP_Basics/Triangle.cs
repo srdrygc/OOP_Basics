@@ -4,7 +4,7 @@ using System.Text;
 
 namespace OOP_Basics
 {
-    class Triangle
+    class Triangle:Shapes
     {
         public static double GetArea(double lengthOfBase, double height)
         {
