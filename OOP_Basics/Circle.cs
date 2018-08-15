@@ -10,5 +10,9 @@ namespace OOP_Basics
         {
             return 2 * Math.PI * r;
         }
+        public double GetArea(double r)
+        {
+            return Math.PI * Math.Pow(r, 2);
+        }
     }
 }
